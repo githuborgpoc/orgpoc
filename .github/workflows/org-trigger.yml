@@ -1,4 +1,6 @@
 on:
+  schedule:
+    - cron:  '* * * * *'
   repository_dispatch:
     types: 
       - ping
